@@ -1,6 +1,6 @@
 const { WebClient } = require("@slack/web-api");
 const { createEventAdapter } = require("@slack/events-api");
-const config = require("../config/env.json");
+const config = require("../env.json");
 const { bots } = require("slack");
 const {csv} = req
 var scheduler = require('node-schedule');
